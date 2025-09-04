@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.exe
+*.ipynb
+*.log
+*.sqlite3
+logs/

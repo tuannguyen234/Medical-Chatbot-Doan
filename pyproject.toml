@@ -1,0 +1,21 @@
+[project]
+name = "medical_chatbot"
+version = "0.1.0"
+description = "A medical chatbot assistant"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "httpx",
+    "pydantic",
+    "openai",
+    "pandas>=2.3.1",
+    "duckduckgo-search>=8.1.1",
+    "requests>=2.32.4",
+    "dotenv>=0.9.9",
+    "bs4>=0.0.2",
+    "pydantic-settings>=2.10.1",
+    "openai-agents>=0.2.5",
+    "sqlalchemy>=2.0.43",
+    "mysql-connector-python>=9.4.0",
+]
